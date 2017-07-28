@@ -13,6 +13,10 @@ app.get('/', function(req, res){
 app.get('/index.html', function(req, res){
   res.sendFile(path.join(__dirname, 'views/index.html'));
 });
+app.get('/index1.html', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/index1.html'));
+});
+
 
 //express server listen
 var server = app.listen(app.get('port'), function(){
