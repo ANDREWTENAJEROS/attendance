@@ -1,0 +1,25 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDREWTENAJEROS/attendance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANDREWTENAJEROS/attendance/issues"
+  },
+  "homepage": "https://github.com/ANDREWTENAJEROS/attendance.git#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
